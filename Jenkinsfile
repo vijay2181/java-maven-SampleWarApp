@@ -9,7 +9,7 @@ pipeline {
   parameters {
 
         choice(name: 'BUILD', choices: ['Yes', 'No'], description: 'Pick Yes or No')
-		string(name: "WAR_FILE_PATH", defaultValue: "/var/lib/jenkins/workspace/test-1/target/*SNAPSHOT.war", trim: false, description: "Provide war file job path in jenkins")
+		string(name: "WAR_FILE_PATH", defaultValue: "/var/lib/jenkins/workspace/final-project/target/*SNAPSHOT.war", trim: false, description: "Provide war file job path in jenkins")
 		choice(name: "ENVIRONMENT", choices: ["", "Dev", "Test", "PROD"], description: 'Choose an environment to deploy')		
 		string(name: "ANSIBLE_IP", defaultValue: "18.212.36.144", trim: false, description: "Provide Ansible Server IP-ADDRESS")
 		password(name: "ANSIBLE_USER_PASSWORD", defaultValue: "vijay", description: "Provide Ansible server user password")
