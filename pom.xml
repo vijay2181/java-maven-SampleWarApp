@@ -10,10 +10,15 @@
 	<url>https://github.com/vijay2181/</url>
 
 	<issueManagement>
-		<url>https://github.com/vijay2181/issues</url>
+		<url>https://github.com/Premvikash/issues</url>
 		<system>GitHub Issues</system>
 	</issueManagement>
 
+	<scm>
+		<url>https://github.com/Premvikash/</url>
+		<connection>scm:git:git://github.com/Premvikash/java-maven-ci.git</connection>
+		<developerConnection>scm:git:git@github.com/Premvikash/java-maven-ci.git</developerConnection>
+	</scm>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
