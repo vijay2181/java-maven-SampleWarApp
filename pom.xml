@@ -2,12 +2,12 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.github.vijay2181/groupId>
-	<artifactId>SampleWarApp</artifactId>
+	<groupId>com.github.Premvikash</groupId>
+	<artifactId>Example</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>SampleWarApp</name>
+	<name>Example</name>
 	<packaging>war</packaging>
-	<url>https://github.com/vijay2181/</url>
+	<url>https://github.com/Premvikash/</url>
 
 	<issueManagement>
 		<url>https://github.com/Premvikash/issues</url>
