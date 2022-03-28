@@ -45,7 +45,7 @@ pipeline {
 		  steps {
                 echo "Hello, Vijay!"
 				sh "mvn clean install"
-				sh "scp ${params.WAR_FILE_PATH} vijay@${params.ANSIBLE_IP}:/opt/artifact"
+				sh "scp -o StrictHostKeyChecking=no ${params.WAR_FILE_PATH} vijay@${params.ANSIBLE_IP}:/opt/artifact"
 				
 					
             }
@@ -63,7 +63,7 @@ pipeline {
 						}
                     steps {
                         echo "Executing Ansible playbook on remote Ansible Host from jenkins Server"
-                        sh "sshpass -p '${params.ANSIBLE_USER_PASSWORD}' ssh 'vijay@${params.ANSIBLE_IP}' 'ansible-playbook /etc/ansible/playbooks/copy-war.yml --limit webserver1' "
+                        sh "sshpass -v -p '${params.ANSIBLE_USER_PASSWORD}' ssh 'vijay@${params.ANSIBLE_IP}' 'ansible-playbook /etc/ansible/playbooks/copy-war.yml --limit webserver1' "
                     }
                 }
                 stage("Test") {
@@ -75,11 +75,13 @@ pipeline {
 						}
                     steps {
                         echo "Executing Ansible playbook on remote Ansible Host from jenkins Server"
-                        sh "sshpass -p '${params.ANSIBLE_USER_PASSWORD}' ssh 'vijay@${params.ANSIBLE_IP}' 'ansible-playbook /etc/ansible/playbooks/copy-war.yml --limit webserver2' "
+                        sh "sshpass -v -p '${params.ANSIBLE_USER_PASSWORD}' ssh 'vijay@${params.ANSIBLE_IP}' 'ansible-playbook /etc/ansible/playbooks/copy-war.yml --limit webserver2' "
                     }
                 }
                 stage("PROD") {
-                    when { expression { params.BUILD == 'Yes' } }
+                    when { expression { params.BUILD == 'Yes' }
+                          expression { params.ENVIRONMENT == 'Prod'}
+                         }
                     steps {
                         sh "echo 'vijay'"
                     }		
