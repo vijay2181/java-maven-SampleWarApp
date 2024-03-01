@@ -1,54 +1,67 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-	<modelVersion>4.0.0</modelVersion>
+        xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+        <modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.github.Premvikash</groupId>
-	<artifactId>Example</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>Example</name>
-	<packaging>war</packaging>
-	<url>https://github.com/Premvikash/</url>
+        <groupId>com.github.vijay2181</groupId>
+        <artifactId>Example</artifactId>
+        <version>0.0.1-RELEASE</version>
+        <name>Example</name>
+        <packaging>war</packaging>
+        <url>https://github.com/vijay2181/</url>
 
-	<issueManagement>
-		<url>https://github.com/Premvikash/issues</url>
-		<system>GitHub Issues</system>
-	</issueManagement>
+        <issueManagement>
+                <url>https://github.com/vijay2181/issues</url>
+                <system>GitHub Issues</system>
+        </issueManagement>
 
-	<scm>
-		<url>https://github.com/Premvikash/</url>
-		<connection>scm:git:git://github.com/Premvikash/java-maven-ci.git</connection>
-		<developerConnection>scm:git:git@github.com/Premvikash/java-maven-ci.git</developerConnection>
-	</scm>
+        <scm>
+                <url>https://github.com/vijay2181/</url>
+                <connection>scm:git:git://github.com//java-maven-ci.git</connection>
+                <developerConnection>scm:git:git@github.com/vijay2181/java-maven-ci.git</developerConnection>
+        </scm>
 
-	<properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-	</properties>
-
-	<dependencies>
-		<dependency>
-			<groupId>javax.servlet</groupId>
-			<artifactId>javax.servlet-api</artifactId>
-			<version>3.1.0</version>
-			<scope>provided</scope>
-		</dependency>
-	</dependencies>
-	<build>
-		<plugins>
-			<plugin>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.2</version>
-				<configuration>
-					<source>1.7</source>
-					<target>1.7</target>
-				</configuration>
-			</plugin>
-			<plugin>
-				<artifactId>maven-war-plugin</artifactId>
-				<version>2.5</version>
-				<configuration>
-					<failOnMissingWebXml>false</failOnMissingWebXml>
-				</configuration>
-			</plugin>
-		</plugins>
-	</build>
+        <properties>
+                <sonar.host.url>http://54.218.61.17:9000</sonar.host.url>
+                <sonar.login>dc958347fcdac19affef43a85ca79800b3af9c7b</sonar.login>
+                <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        </properties>
+         
+            <distributionManagement>
+                        <snapshotRepository>
+                                <id>nexus</id>
+                                <url>http://35.91.117.163:8081/repository/app-snapshots/</url>
+                        </snapshotRepository>
+                        <repository>
+                                <id>nexus</id>
+                                <url>http://35.91.117.163:8081/repository/app-releases/</url>
+                        </repository>
+                </distributionManagement>
+        <dependencies>
+                <dependency>
+                        <groupId>javax.servlet</groupId>
+                        <artifactId>javax.servlet-api</artifactId>
+                        <version>3.1.0</version>
+                        <scope>provided</scope>
+                </dependency>
+        </dependencies>
+        <build>
+                <plugins>
+                        <plugin>
+                                <artifactId>maven-compiler-plugin</artifactId>
+                                <version>3.2</version>
+                                <configuration>
+                                        <source>1.7</source>
+                                        <target>1.7</target>
+                                </configuration>
+                        </plugin>
+                        <plugin>
+                                <artifactId>maven-war-plugin</artifactId>
+                                <version>2.5</version>
+                                <configuration>
+                                        <failOnMissingWebXml>false</failOnMissingWebXml>
+                                </configuration>
+                        </plugin>
+                </plugins>
+        </build>
 </project>
+
