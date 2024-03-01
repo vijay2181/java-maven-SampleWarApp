@@ -4,7 +4,7 @@
 
         <groupId>com.github.vijay2181</groupId>
         <artifactId>Example</artifactId>
-        <version>0.0.1-RELEASE</version>
+        <version>0.0.1-SNAPSHOT</version>
         <name>Example</name>
         <packaging>war</packaging>
         <url>https://github.com/vijay2181/</url>
@@ -21,8 +21,9 @@
         </scm>
 
         <properties>
-                <sonar.host.url>http://54.218.61.17:9000</sonar.host.url>
-                <sonar.login>dc958347fcdac19affef43a85ca79800b3af9c7b</sonar.login>
+                <sonar.host.url>http://35.165.128.133:9000</sonar.host.url>
+                <sonar.login>admin<sonar.login>
+                <sonar.password>admin<sonar.password>
                 <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         </properties>
          
