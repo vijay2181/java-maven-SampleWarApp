@@ -30,11 +30,11 @@
             <distributionManagement>
                         <snapshotRepository>
                                 <id>nexus</id>
-                                <url>http://35.91.117.163:8081/repository/app-snapshots/</url>
+                                <url>http://35.91.108.224:8081/repository/app-snapshots/</url>
                         </snapshotRepository>
                         <repository>
                                 <id>nexus</id>
-                                <url>http://35.91.117.163:8081/repository/app-releases/</url>
+                                <url>http://35.91.108.224:8081/repository/app-releases/</url>
                         </repository>
                 </distributionManagement>
         <dependencies>
