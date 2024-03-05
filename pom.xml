@@ -21,9 +21,10 @@
     </scm>
 
     <properties>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+          <sonar.host.url>http://35.165.197.226:9000</sonar.host.url>
+          <sonar.login>admin</sonar.login>
+          <sonar.password>admin</sonar.password>
+          <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
     <distributionManagement>
