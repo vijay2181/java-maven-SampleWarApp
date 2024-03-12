@@ -3,9 +3,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.github.vijay2181</groupId>
-    <artifactId>Example</artifactId>
+    <artifactId>java-maven-SampleWarApp</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>Example</name>
+    <name>java-maven-SampleWarApp</name>
     <packaging>war</packaging>
     <url>https://github.com/vijay2181/</url>
 
