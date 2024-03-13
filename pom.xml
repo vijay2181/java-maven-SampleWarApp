@@ -21,7 +21,6 @@
     </scm>
 
     <properties>
-          <sonar.host.url>http://52.10.226.100:9000</sonar.host.url>
           <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
