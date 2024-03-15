@@ -14,7 +14,7 @@ $mvn clean verify
 [INFO] 
 [INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ Example ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
-[INFO] skip non existing resourceDirectory  /Users/prem/Desktop/codebase/java-maven-sample-war/src/main/resources
+[INFO] skip non existing resourceDirectory /Users/prem/Desktop/codebase/java-maven-sample-war/src/main/resources
 [INFO] 
 [INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ Example ---
 [INFO] Changes detected - recompiling the module!
