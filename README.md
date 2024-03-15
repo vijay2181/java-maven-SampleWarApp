@@ -1,6 +1,6 @@
 # Sample war application using Maven 
 
-1. Navigate to the directory and run the below maven command to build the war file as
+1. Navigate to directory and run the below maven command to build the war file as
 ```
 $mvn clean verify
 
@@ -30,7 +30,7 @@ $mvn clean verify
 [INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ Example ---
 [INFO] No tests to run.
 [INFO] 
-[INFO] --- maven-war-plugin:2.5:war (default-war) @ Example ---
+[INFO] --- maven-war-plugin:2.5:war  (default-war) @ Example ---
 [INFO] Packaging webapp
 [INFO] Assembling webapp [Example] in [/Users/prem/Desktop/codebase/java-maven-sample-war/target/Example-0.0.1-SNAPSHOT]
 [INFO] Processing war project
