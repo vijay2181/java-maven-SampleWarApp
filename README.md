@@ -12,7 +12,7 @@ $mvn clean verify
 [INFO] 
 [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ Example ---
 [INFO] 
-[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ Example ---
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ Example ----
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] skip non existing resourceDirectory /Users/prem/Desktop/codebase/java-maven-sample-war/src/main/resources
 [INFO] 
