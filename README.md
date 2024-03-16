@@ -1,8 +1,8 @@
 # Sample war application using Maven 
 
-1. Navigate to the directory and run the below maven command to build the war file as
+1. Navigate to directory and run the below maven command to build the war file as
 ```
-$mvn clean verify
+$mvn clean verifyy
 
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -27,7 +27,7 @@ $mvn clean verify
 [INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ Example ---
 [INFO] No sources to compile
 [INFO] 
-[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ Example ---
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ Example -----
 [INFO] No tests to run.
 [INFO] 
 [INFO] --- maven-war-plugin:2.5:war (default-war) @ Example ---
