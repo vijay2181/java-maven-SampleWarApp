@@ -27,7 +27,7 @@ $mvn clean verifyy
 [INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ Example ---
 [INFO] No sources to compile
 [INFO] 
-[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ Example ---
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ Example -----
 [INFO] No tests to run.
 [INFO] 
 [INFO] --- maven-war-plugin:2.5:war (default-war) @ Example ---
