@@ -2,7 +2,7 @@
 
 1. Navigate to directory and run the below maven command to build the war file as
 ```
-$mvn clean verify
+$mvn clean verifyy
 
 [INFO] Scanning for projects...
 [INFO]                                                                         
