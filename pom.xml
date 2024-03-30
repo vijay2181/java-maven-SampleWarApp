@@ -21,7 +21,7 @@
     </scm>
 
     <properties>
-        <sonar.host.url>http://3.84.25.37:9000</sonar.host.url>
+        <sonar.host.url>http://54.166.111.38:9000</sonar.host.url>
 		<sonar.login>admin</sonar.login>
 		<sonar.password>admin123</sonar.password>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
