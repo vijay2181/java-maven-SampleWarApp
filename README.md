@@ -7,7 +7,7 @@ $mvn clean verify
 [INFO] Scanning for projects...
 [INFO]                                                                         
 [INFO] ------------------------------------------------------------------------
-[INFO] Building Example 0.0.1-SNAPSHOT
+[INFO] Building Example 0.0.1-SNAPSHOT--
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ Example ---
